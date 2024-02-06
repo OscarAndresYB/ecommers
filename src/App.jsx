@@ -1,13 +1,12 @@
-import { useState } from 'react'
-
+import { API } from "../env"
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
       <div>
-        <h1>Hola mundo</h1>
+        <h1>Hola {API}</h1>
         
       </div>
       
